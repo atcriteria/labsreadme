@@ -38,11 +38,12 @@ Human Rights First (HRF) is a non-profit, nonpartisan, 501(c)(3), international 
 - Download all has been implemented but a modal needs to be added confirming download all if nothing is selected.
 - Created accordians that expand when a case is selected, displaying case information to be reviewed. Fix this to only show the relevant case information rather than information from all cases
 - Added animated spinner that runs while the scraper is scraping the data from a PDF
+- Added matching icons to the menus.
 
 ## Bugs
 
 - The PDF Export filters according to search queries but not according to the table check boxes.
-<!-- ??? -->
+- When/If the application breaks, the remove event listener in the side drawer also breaks. It is unknown if this bug is related to the application breaking or not.
 - PDF Modal (clicking “View PDF”) doesn’t work and causes errors when clicked
 - The adminData and userData functions do not work currently as there are no endpoints for distinguishing between user types and the components do not exist
 - Sometimes https://a.humanrightsfirstasylum.dev/ gets stuck on “Fetching user profile” after signing in.  The current workaround is to clear localStorage. Updating Okta may have fixed this problem. 
