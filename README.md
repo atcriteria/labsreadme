@@ -5,7 +5,6 @@
 *In order for the website to work properly, please enable 3rd-party cookies in your browser settings!*
 - [Corresponding Back-end repository](https://github.com/Lambda-School-Labs/human-rights-first-asylum-be-a)
 - [Back-end deployment](https://asylum-a-api.herokuapp.com/), using Heroku Postgres.
-- [Back-end endpoints documentation](https://asylum-a-api.herokuapp.com/api-docs/), using Swagger.
 
 ### Product Mission and Goals
 
@@ -34,27 +33,6 @@ Human Rights First (HRF) is a non-profit, nonpartisan, 501(c)(3), international 
 - Create an .env file on the top level of the repo, with the provided credentials.
 - run: `npm install` to download all dependencies.
 - run: `npm start` to start your local development server.
-
-### Key Features and Notes to the Next Group on what still needs work
-
-- PDF Export button for Table Data implemented as well as Ant Design collapse for the FAQ page. Find a way to get the export function to also filter according to table checkbox selections and column selections.
-- Cases and Judges can be saved to a user profile by checking their row's select box and clicking the save button, this will add them to the saved cases or saved judges page
-- PDF viewer pops up a modal, more work is needed to make it functional
-- Case outcome pie chart dynamically renders based on searches
-- Continue to convert other tables and menus from MUI to Ant
-- Download all has been implemented but a modal needs to be added confirming download all if nothing is selected.
-- Created accordians that expand when a case is selected, displaying case information to be reviewed. Fix this to only show the relevant case information rather than information from all cases
-- Added animated spinner that runs while the scraper is scraping the data from a PDF
-- Added matching icons to the menus.
-
-## Bugs
-
-- The PDF Export filters according to search queries but not according to the table check boxes.
-- When/If the application breaks, the remove event listener in the side drawer also breaks. It is unknown if this bug is related to the application breaking or not.
-- PDF Modal (clicking “View PDF”) doesn’t work and causes errors when clicked
-- The adminData and userData functions do not work currently as there are no endpoints for distinguishing between user types and the components do not exist
-- Sometimes https://a.humanrightsfirstasylum.dev/ gets stuck on “Fetching user profile” after signing in.  The current workaround is to clear localStorage. Updating Okta may have fixed this problem. 
-
 
 ## Contributors
 
