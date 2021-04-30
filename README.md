@@ -1,5 +1,12 @@
 # Human Rights First - Asylum - Front End
 
+- This project is built with the Basic SPA Scaffold. To get started with the project, go [here](https://docs.labs.lambdaschool.com/labs-spa-starter/) and follow the instructions. Be sure to read the instructions carefully.
+- [Project deployed here](https://a.humanrightsfirstasylum.dev/), using AWS Amplify. </br>
+*In order for the website to work properly, please enable 3rd-party cookies in your browser settings!*
+- [Corresponding Back-end repository](https://github.com/Lambda-School-Labs/human-rights-first-asylum-be-a)
+- [Back-end deployment](https://asylum-a-api.herokuapp.com/), using Heroku Postgres.
+- [Back-end endpoints documentation](https://asylum-a-api.herokuapp.com/api-docs/), using Swagger.
+
 ### Product Mission and Goals
 
 Human Rights First (HRF) is a non-profit, nonpartisan, 501(c)(3), international human rights organization based in New York, Washington D.C., Houston, and Los Angeles. HRF works to link immigration attorneys and advocates with asylum seekers and provide those attorneys with resources to best represent their clients. Our application leverages historical data to better inform advocates of a judge’s past decisions. The hope is that advocates for asylum seekers can use our tools to tailor their arguments before a particular judge and maximize their client's chances of receiving asylum.
